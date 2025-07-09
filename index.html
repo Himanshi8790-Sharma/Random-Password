@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Pass</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-deepBlue">
+    <section class=" w-10/12 max-w-[1000px] h-[500px] mx-auto  mt-25">
+        <div class="flex flex-row justify-between items-center">
+            <!-- Left part -->
+             <div class="flex flex-col gap-10 ">
+                <!-- Heading -->
+                <h1 class="font-medium text-5xl  mt-15 text-white " > Genrate a<br>
+                    <span class="text-greenLight  leading-3 underline">Random Password</span>
+                </h1>
+                <!-- Input  -->
+                <div class="flex px-[10px] lg:flex-row bg-white lg:px-[30px] py-[15px] border-0 outline-0 rounded-xl justify-between">
+                  <input type="text" id="Password" placeholder="Password" >
+                    <img src="copy.png" width="30px" class="ml-[190px] cursor-pointer " alt="Copy" onclick=" copyPassword()">
+                </div>
+                <!-- Buttons  -->
+                <div class="flex flex-row bg-greenLight text-white font-semibold items-center justify-between cursor-pointer px-[30px] py-2 rounded-2xl">
+                    <!-- Genrate pass -->
+                    <button onclick="createPassword()" class="flex  flex-row  hover:underline transition-all duration-200 px-[18px] ">
+                        <img src="generate.png" alt="" width="20px">
+                        <h3>Genrate Password</h3>
+                    </button>
+                    <!-- SElect Medium -->
+                    <select id="categorySelect" class="text-black">
+                    <option value="">Type</option>
+                     <option value="Easy">Easy</option>
+                     <option value="Hard">Hard</option>
+                    </select>
+                     <!-- length medium -->
+                      <select id="lengthSelect" class="text-black">
+                     <option value="">Length</option>
+                     <option value="Six">6</option>
+                     <option value="Eight">8</option>
+                     <option value="Ten">10</option>
+                    </select>
+                </div>
+             </div>   
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
