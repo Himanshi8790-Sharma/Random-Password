@@ -3,7 +3,7 @@
 This is a simple yet powerful **Random Password Generator** built with **HTML**, **JavaScript**, and **Tailwind CSS**.
 ## 🖥️ Live Demo
 
-👉 [Click here to try it](#)  
+👉 [Click here to try it](https://himanshi8790-sharma.github.io/Random-Password/)  
 
 
 ## 🚀 Features
