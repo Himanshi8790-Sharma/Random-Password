@@ -1,12 +1,43 @@
-# React + Vite
+# 🔐 Random Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple yet powerful **Random Password Generator** built with **HTML**, **React**, and **Tailwind CSS**.
+## 🖥️ Live Demo
 
-Currently, two official plugins are available:
+👉 [Click here to try it](https://himanshi8790-sharma.github.io/Random-Password/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Choose Password **Length**
+- ✅ Select Password **Type**:
+  - Easy (Only Letters)
+  - Hard (Letters, Numbers, Symbols)
+- ✅ **Copy** password to clipboard with one click
+- ✅ Clean and responsive **UI with Tailwind CSS**
+- 
+## 🛠️ Tech Stack
+
+- HTML
+- Tailwind CSS
+- React
+
+## 📂 Project Structure
+
+Random pass/
+│
+├── index.html
+├── React (Vite)
+├── Tailwind CSS
+└── README.md
+
+## 💡 How to Use
+
+1. Open the app in browser
+2. Select the desired **length** from dropdown
+3. Choose password **type** (easy/hard)
+4. Click **Generate Password**
+5. Click on **Copy** to copy password to clipboard
+
+---
+
+
