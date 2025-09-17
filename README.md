@@ -3,7 +3,7 @@
 This is a simple yet powerful **Random Password Generator** built with **HTML**, **React**, and **Tailwind CSS**.
 ## 🖥️ Live Demo
 
-👉 [Click here to try it](https://himanshi8790-sharma.github.io/Random-Password/)  
+👉 [Click here to try it](https://random-password-sable.vercel.app/)  
 
 
 ## 🚀 Features
